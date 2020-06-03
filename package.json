@@ -1,4 +1,6 @@
 {
+  "name": "trida-pizarron",
+  "version": "1.0.0",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -70,7 +72,7 @@
       "node_modules/(?!(roughjs|points-on-curve|path-data-parser|points-on-path|browser-nativefs)/)"
     ]
   },
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "npm run build:app && npm run build:zip",
     "build-node": "node ./scripts/build-node.js",
@@ -90,5 +92,8 @@
     "test:debug": "react-scripts --inspect-brk test --runInBand --no-cache",
     "test:other": "npm run prettier -- --list-different",
     "test:typecheck": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }

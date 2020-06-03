@@ -1,0 +1,19 @@
+{
+  "name": "trida-pizarron",
+  "version": "1.0.0",
+  "description": "pizarron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/micaderito/Trida-pizarron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micaderito/Trida-pizarron/issues"
+  },
+  "homepage": "https://github.com/micaderito/Trida-pizarron#readme"
+}
